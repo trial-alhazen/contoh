@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js loop</title>
+</head>
+<body>
+    <h1>belajar Loop</h1>
+    <script>
+        for(let num=0;num<10;num++) {
+            console.log("number - "+num)
+        }
+        console.log("--------- while");
+        let angka =10;
+        while(angka<10) {
+            console.log("number - "+angka);
+            angka ++;
+        }
+        console.log("--------- do");
+        let number =0;
+        do{
+            console.log("number - "+number);
+            number ++;
+        }
+        while(number<10);
+
+        let fruits = ["banana","orange","durian",2,true];
+        for (let fruit in fruits) {
+            console.log("i like - "+fruits[fruit]);
+        }
+        console.log("---------");
+        let buahbuahan = ["banana","orange","durian"];
+        console.log(buahbuahan[0]);
+        for (let buah of buahbuahan) {
+            console.log("i like - "+ buah[0]);
+        }
+       
+
+        
+
+    </script>
+</body>
+</html>
